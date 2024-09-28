@@ -7,4 +7,4 @@ for (let i = 0; i < dim; i++) {
 arregloInvertido[i] = rs.questionInt(`Ingrese el numero de la posicion ${i+1}: `)
 }
 
-console.log(arregloInvertido);
+console.log(`El arreglo invertido es: ${arregloInvertido.reverse()}`);
