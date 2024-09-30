@@ -1,6 +1,5 @@
 import * as rs from "readline-sync";
 
-let vector1: number;
 let arregloA: number[] = new Array(6);
 let arregloB: number[] = new Array(6);
 let sumaArreglos: number[] = new Array(6);
