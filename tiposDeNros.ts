@@ -9,11 +9,11 @@ let cero: number = 0;
 for (let i = 0; i < dim; i++) {
     arregloInvertido[i] = rs.questionInt(`Ingrese el numero de la posicion ${i + 1}: `)
     if (arregloInvertido[i] > 0) {
-        positivos = positivos + 1;
+        positivos++;
     } else if (arregloInvertido[i] < 0) {
-        negativos = negativos + 1
+        negativos++
     } else {
-        cero = cero + 1
+        cero++
     }
 }
 
